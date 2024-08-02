@@ -24,6 +24,12 @@ body {
 .rgb {
     color:rgb(255, 255, 255)
 }
+.orange {
+   color:orange
+}
+.black {
+   color:black
+}
 
 body {
     background-color: rgb(235, 124, 40);
@@ -44,4 +50,10 @@ body {
    display:flex;
    justify-content: center;
    width: 50%;
+}
+.sectiontwo {
+   background-color: azure;
+}
+.sectionthree {
+   background-color: aliceblue;
 }
