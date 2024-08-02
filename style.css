@@ -29,3 +29,19 @@ body {
     background-color: rgb(235, 124, 40);
 
 }
+.sectionone {
+   display:flex;
+   justify-content: space-evenly;
+}
+.leftone {
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: whitesmoke;
+   width: 50%;
+}
+.rightone {
+   display:flex;
+   justify-content: center;
+   width: 50%;
+}
