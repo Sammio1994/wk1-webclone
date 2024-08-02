@@ -1,8 +1,24 @@
-nav-bar {
-    text Just Eat 
-}
+
 body {
-   text-align:center 
+      
+      text-align:center 
+      
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+ 
+.navbar{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: rgb(255, 253, 253);
+   height: 100px;
+   flex-wrap: wrap;
+   flex-direction: row;
 }
 
 .rgb {
@@ -12,32 +28,4 @@ body {
 body {
     background-color: rgb(235, 124, 40);
 
-}
-p {
-    border: 10px solid lightgrey;
-  }
- h1 {
-    border: 20px solid lightgray
-    
- } 
- h2 {
-    border: 20px solid lightgray
- } 
- h3 {
-    border: 20px solid lightgray
- } 
- h4{
-    border: 20px solid lightgray
- } 
- h5{
-    border: 20px solid lightgray
- } 
- a {
-    border: 5px solid lightgray
- } 
- li {
-    border: 5px solid lightgray
- }
-button {
-   align-items: center;
 }
