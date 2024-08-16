@@ -10,7 +10,7 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
- 
+ /* the navbar class allows me to specify different varients */
 .navbar{
    display: flex;
    justify-content: space-evenly;
@@ -19,13 +19,15 @@ body {
    height: 100px;
    flex-wrap: wrap;
    flex-direction: row;
+   padding: 10px;
 }
-
+/* this class alows me to use the color as a general referal rather than a specific class */
 .rgb {
     color:rgb(255, 255, 255)
 }
 .orange {
    color:orange
+
 }
 .black {
    color:black
@@ -35,16 +37,18 @@ body {
     background-color: rgb(235, 124, 40);
 
 }
+/* sections allow me to break up the page and enable independant varients */
 .sectionone {
    display:flex;
    justify-content: space-evenly;
+   padding: px;
 }
 .leftone {
    display:flex;
    flex-direction: column;
    justify-content: center;
    background-color: whitesmoke;
-   width: 50%;
+   width: 100%;
 }
 .rightone {
    display:flex;
@@ -53,7 +57,9 @@ body {
 }
 .sectiontwo {
    background-color: azure;
+   padding: 100px;
 }
 .sectionthree {
    background-color: aliceblue;
+   padding:
 }
